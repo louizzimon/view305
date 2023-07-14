@@ -1,0 +1,420 @@
+
+
+body {
+font-family: arial; /* background-color: darkgray; font_helvetica_now  */  
+margin: 0; padding: 0;
+font-size: 15px;
+line-height: 100%;
+/*letter-spacing: 0.2px;*/
+/*max-width: 1000px;*/
+}
+/* page texte about */
+article, .article_id_14 {
+  margin-left: 80px;
+  margin-top: 0px;
+  padding: 0;
+  margin-right: 17px;
+ 
+ /*
+  width: 88%;
+  max-width: 1200px;
+  */
+}
+article h1, .article_id_14 h1 {font-size: 23px; line-height: 1;}
+
+/*images */
+#bloc_img {
+  text-align: center;
+  float: left;
+  /*margin-left: -80px;*/
+  margin-top: -20px;
+  width: 100vw;
+  background-color: #4a4a4a;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+
+}
+
+/* image cover projet 290 x 180 */
+.img_box_liste_projets img {
+  object-fit: cover;
+  width: 100%;
+  min-height: 60vh;
+}
+
+
+.img_projet {
+  width: 200px;
+  margin-top: 35px;
+  margin-left: 35px;
+
+/*  margin-right: 8vw;
+  margin-top: 70px;
+  margin-left: 30px;
+  */
+}
+
+
+
+
+
+
+
+
+
+
+.fleche {font-size: 50px;  font-weight:400; text-decoration: none; color: #fff; position: absolute;}
+.position_fleche_gauche{ left: 30px; top: 40%; }
+.position_fleche_droite{ right: 30px; top: 40%; }
+
+#feedbak { font-size: 30px; text-decoration: none; color: black; right: 30px; bottom: 0px; position: absolute; }
+
+#titre_projet { 
+font-size: 30px; text-decoration: none; color: black; margin-left: 30px;
+font-size: 18pt;
+/*font-family: AkzidenzGroteskBE;*/
+line-height: 120%;
+}
+
+#info_bt {font-size: 30px; color: black; left: 30px; top: 0px; position: absolute;}
+#fermer_bt {font-size: 30px; color: black; right: 30px; top: 0px; position: absolute;}
+#fermer_bt  a, #info_bt a {  color: black ; text-decoration: none;}
+
+.img_projet { 
+margin-top:8%;
+max-height: 88.4%;
+height: 40%;
+max-width: 100%;
+height: auto;
+}
+
+.img_param { 
+position: absolute; 
+vertical-align: middle;
+margin-top: 0;
+padding-top: 0; 
+/* height: 80%; */
+width: 100%;
+text-align: center;
+}
+
+.zone_bas{height: 10%; top: 88.4%; width: 80%; position: absolute;  }
+
+/* PAS UTILISE */
+.display_off {display: none;} 
+.display_on {display: block;}
+
+
+/* DE GAUCHE Ã  droite !! */
+
+.img_in {
+position: absolute; 
+-moz-animation: anim_in 0.3s linear forwards 0s;
+-webkit-animation: anim_in 0.3s linear forwards 0s;
+-o-animation: anim_in 0.3s linear forwards 0s;
+-ms-animation: anim_in 0.3s linear forwards 0s;
+animation: anim_in 0.3s linear forwards 0s;
+}
+
+.img_out {
+position: absolute;
+-moz-animation: img_out 0.3s linear forwards 0s;
+-webkit-animation: img_out 0.3s linear forwards 0s;
+-o-animation: img_out 0.3s linear forwards 0s;
+-ms-animation: img_out 0.3s linear forwards 0s;
+animation: img_out 0.3s linear forwards 0s;
+}
+
+@-moz-keyframes anim_in { 
+0%  {transform:translate(1200px,0px) scale(1); opacity:1}
+100% {transform:translate(0,0%) scale(1); opacity:1} 
+}
+@-webkit-keyframes anim_in {
+0%  {transform:translate(1200px,0px) scale(1); opacity:1}
+100% {transform:translate(0,0%) scale(1); opacity:1} 
+}
+@-o-keyframes anim_in {
+0%  {transform:translate(1200px,0px) scale(1); opacity:1}
+100% {transform:translate(0,0%) scale(1); opacity:1} 
+}
+@-ms-keyframes anim_in {
+0%  {transform:translate(1200px,0px) scale(1); opacity:1}
+100% {transform:translate(0,0%) scale(1); opacity:1} 
+}
+@keyframes anim_in {
+0%  {transform:translate(1200px,0px) scale(1); opacity:1}
+100% {transform:translate(0,0%) scale(1); opacity:1} 
+}
+
+
+@-moz-keyframes img_out { 
+0%  {transform:translate(0px,0px) scale(1); opacity:1}
+100% {transform:translate(-1200px,0%) scale(1); opacity:1} 
+}
+@-webkit-keyframes img_out {
+0%  {transform:translate(0px,0px) scale(1); opacity:1}
+100% {transform:translate(-1200px,0%) scale(1); opacity:1} 
+}
+@-o-keyframes img_out {
+0%  {transform:translate(0px,0px) scale(1); opacity:1}
+100% {transform:translate(-1200px,0%) scale(1); opacity:1} 
+}
+@-ms-keyframes img_out {
+0%  {transform:translate(0px,0px) scale(1); opacity:1}
+100% {transform:translate(-1200px,0%) scale(1); opacity:1} 
+}
+@keyframes img_out {
+0%  {transform:translate(0px,0px) scale(1); opacity:1}
+100% {transform:translate(-1200px,0%) scale(1); opacity:1} 
+}
+
+
+
+/* De droite Ã  gauche !! */
+
+.img_in_dg {
+position: absolute; 
+-moz-animation: anim_in_dg 0.3s linear forwards 0s;
+-webkit-animation: anim_in_dg 0.3s linear forwards 0s;
+-o-animation: anim_in_dg 0.3s linear forwards 0s;
+-ms-animation: anim_in_dg 0.3s linear forwards 0s;
+animation: anim_in_dg 0.3s linear forwards 0s;
+}
+
+.img_out_dg {
+position: absolute;
+-moz-animation: img_out_dg 0.3s linear forwards 0s;
+-webkit-animation: img_out_dg 0.3s linear forwards 0s;
+-o-animation: img_out_dg 0.3s linear forwards 0s;
+-ms-animation: img_out_dg 0.3s linear forwards 0s;
+animation: img_out_dg 0.3s linear forwards 0s;
+}
+
+@-moz-keyframes anim_in_dg { 
+0%  {transform:translate(-1200px,0px) scale(1); opacity:1}
+100% {transform:translate(0,0%) scale(1); opacity:1} 
+}
+@-webkit-keyframes anim_in_dg {
+0%  {transform:translate(-1200px,0px) scale(1); opacity:1}
+100% {transform:translate(0,0%) scale(1); opacity:1} 
+}
+@-o-keyframes anim_in_dg {
+0%  {transform:translate(-1200px,0px) scale(1); opacity:1}
+100% {transform:translate(0,0%) scale(1); opacity:1} 
+}
+@-ms-keyframes anim_in_dg {
+0%  {transform:translate(-1200px,0px) scale(1); opacity:1}
+100% {transform:translate(0,0%) scale(1); opacity:1} 
+}
+@keyframes anim_in_dg {
+0%  {transform:translate(-1200px,0px) scale(1); opacity:1}
+100% {transform:translate(0,0%) scale(1); opacity:1} 
+}
+
+
+@-moz-keyframes img_out_dg { 
+0%  {transform:translate(0px,0px) scale(1); opacity:1}
+100% {transform:translate(1200px,0%) scale(1); opacity:1} 
+}
+@-webkit-keyframes img_out_dg {
+0%  {transform:translate(0px,0px) scale(1); opacity:1}
+100% {transform:translate(1200px,0%) scale(1); opacity:1} 
+}
+@-o-keyframes img_out_dg {
+0%  {transform:translate(0px,0px) scale(1); opacity:1}
+100% {transform:translate(1200px,0%) scale(1); opacity:1} 
+}
+@-ms-keyframes img_out_dg {
+0%  {transform:translate(0px,0px) scale(1); opacity:1}
+100% {transform:translate(1200px,0%) scale(1); opacity:1} 
+}
+@keyframes img_out_dg {
+0%  {transform:translate(0px,0px) scale(1); opacity:1}
+100% {transform:translate(1200px,0%) scale(1); opacity:1} 
+}
+
+
+
+
+/*  MENU SEITE  */
+#mySidenav{ position: fixed; background-color: #fff;
+  left: 0px; top: 0px; width: 0%; text-align: left; font-size: 30px;  } 
+
+#mySidenav p {   padding-left: 30px; padding-right: 50px; font-size: 14pt; font-family: font_helvetica_now ; 
+line-height: 120%; }
+#mySidenav h1 {   padding-left: 30px; padding-right: 50px; font-size: 20pt; font-family: font_helvetica_now ; 
+  text-transform: uppercase;}
+
+#mySidenav ul {  list-style-type: none;  }
+    .sidenav {
+    height: 100%;
+    line-height: 120%;
+    width: 0%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 0px;
+    text-align: center;
+
+}
+
+small {font-size: 14px; margin:0; color: #777; font-family: font_helvetica_now ;}
+  
+#mySidenav li {  margin-left: -30px;  } 
+.sidenav a {
+/*  padding: 8px 8px 8px 0px;*/
+  padding: 0; margin: 0;
+
+  transition: 0.3s;
+}
+
+.closebtn { position: absolute; right: 6px; top: 0px; width: 75px; height: 75px}
+
+
+/* MOBILE  -------------------------------------------------------------------------------   */ 
+
+@media only screen and (max-width: 767px) {
+#titre_projet, #feedbak, #fermer_bt a, #info_bt a {font-size: 20px;}
+.closebtn { width: 45px; height: 45px; top: 28px; }
+}
+
+
+
+/*  MOBILE !!!!   -------------------------------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+    .img_projet {/*width: 200px;*/ margin-top: 130px ; }
+}
+
+
+
+
+
+
+
+
+
+
+/* bloc principal */
+#bloc_img {
+min-height:72vh;
+/* background-color: #e3e3e3; */
+}
+
+.div_mockup{
+  width: 800px;
+  position: absolute;
+  overflow-y: hidden;
+  left: calc(50% - 400px);
+  top: 10px;
+}
+
+.div_mockup img{  width:100%; }
+
+
+
+
+
+/* image dans le mockup */
+.img_inside_mockup {
+  position: absolute;
+  height: 403px;
+  width: 573px;
+  overflow-y: scroll;
+  left: calc(50% - 282px);
+  top:  62px;
+}
+
+
+/* position mockup */
+.center-absolut_XXX {
+  position: absolute; /* postulat de dÃ©part */
+  top: 50%; left: 50%; /* Ã  50%/50% du parent rÃ©fÃ©rent */
+  transform: translate(-50%, -50%); /* dÃ©calage de 50% de sa propre taille */
+  
+}
+
+
+
+.img_projet_grand {
+   margin-top: 4%; 
+  max-height: 64%;
+  max-width: 80%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  /*
+  .img_inside_mockup,.div_mockup {
+  -webkit-transform:scale(0.5);
+  -moz-transform:scale(0.5);
+  -ms-transform:scale(0.5);
+  transform:scale(0.5);
+  }
+  */
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+  .display_off {
+    display: block;
+    position: relative;
+  }
+  .img_param{
+    position: unset;
+  }
+  .fleche{display: none;}
+  #feedbak{display: none;}
+
+  .div_mockup{ width: 100%;
+    left: unset;
+    top: 0;
+  /*position: unset;*/  
+  }
+
+  .div_mockup img {
+    width: 85%;
+  }
+
+
+  /* .img_inside_mockup {display: none;} */
+
+  .img_param {
+    position: relative;
+  }
+
+  .img_param {
+    position: relative;
+    height: 58vw;
+  }
+
+  .img_inside_mockup {
+    position: absolute;
+    height: 42vw;
+    width: 61%;
+    margin-top: 6vw;
+    margin-left: 20%;
+    left: unset;
+    top: unset;
+  }
+
+  .fond_blanc{ width: 61%;
+  height: 43vw;
+  background-color: #fff;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 20vw;}
+  }
+  .img_inside_mockup img {top: unset; margin-top: unset;}
+}
