@@ -31,12 +31,12 @@ $chap_01[vignette][1]["slider"]="chap01/img_slider_predalle/";
 /* CHAPITRE 2 ---------------------------------------------- */
 
 $chap_02["grande_img"]="img/chap1/bg_chap1_1.jpg";
-$chap_02["titre"]="Le montage est terminé. L'atelier accueil habitants, étudiants et artistes";
+$chap_02["titre"]="Le montage est terminé. L'atelier accueille habitants, étudiants et artistes";
 $chap_02["video"]["youtube"]="eF5r25aqZTw";
 
 
 $chap_02[vignette][1]["titre"]="Effet cocktail party";
-$chap_02[vignette][1]["sous-titre"]="Résidence et concert d'Antoirer Bellanger";
+$chap_02[vignette][1]["sous-titre"]="Résidence et concert d'Antoine Bellanger";
 $chap_02[vignette][1]["youtube"]="";
 $chap_02[vignette][1]["couleur"]="";
 
