@@ -37,7 +37,7 @@ $chap_02["video"]["youtube"]="eF5r25aqZTw";
 
 
 $chap_02[vignette][1]["titre"]="Effet cocktail party";
-$chap_02[vignette][1]["sous-titre"]="Résidence et concert d'Antoire Bellanger";
+$chap_02[vignette][1]["sous-titre"]="Résidence et concert d'Antoine Bellanger";
 $chap_02[vignette][1]["youtube"]="";
 $chap_02[vignette][1]["couleur"]="";
 
